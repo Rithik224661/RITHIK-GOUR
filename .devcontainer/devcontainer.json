@@ -1,0 +1,11 @@
+{
+  "name": "Retail Insights Codespace",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "forwardPorts": [8501],
+  "postStartCommand": "pip install --upgrade pip && pip install -r requirements.txt || true",
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["app/streamlit_app.py"]
+    }
+  }
+}

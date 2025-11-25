@@ -1,0 +1,15 @@
+# Core runtime
+streamlit>=1.30.0,<2.0.0
+pandas>=2.2.3
+# Use a broad duckdb range so pip can choose a compatible build for your Python version.
+# Some older pins caused install errors on Python 3.12 environments.
+duckdb>=1.0.0,<2.0.0
+python-dotenv>=1.0.0
+openai>=1.32.0
+python-pptx>=0.6.21
+
+# Optional / advanced (heavy build or GPU required)
+# These are not required for the basic demo. If you want embeddings and RAG, install them separately.
+# faiss-cpu can be difficult to install on some platforms (use a prebuilt wheel or install via conda).
+# faiss-cpu==1.7.4
+sentence-transformers>=2.2.2

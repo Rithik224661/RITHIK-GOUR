@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+env/
+.env
+*.pyc
+streamlit_app_state.toml
+/.DS_Store
+*.csv
